@@ -6,11 +6,17 @@
     <title>Formulário</title>
 </head>
 <body>
-    <!-- Fazendo uma requisição para o youtube -->
-    <form action="https://www.youtube.com/results" method="GET">
-        <input type="text" name="search_query">
-        <input type="submit">
+    <form action="" method="POST">
+        <input type="text" name="search-query"><br>
+        <input type="password" name="senha"><br>
+        <input type="checkbox" name="curso" value="op1">Python<br>
+        <input type="checkbox" name="curso" value="op2">React<br>
+        <input type="radio" name="gender" value="m" checked>Masculino<br>
+        <input type="radio" name="gender" value="f">Feminino<br>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
 
     </form>
+    
 </body>
 </html>
